@@ -1,0 +1,61 @@
+/* src/styles.css */
+
+body, html, #root {
+  height: 100vh; /* Full screen */
+  margin: 0;
+  padding: 0;
+  background-image: url('/images/todo-bg.jpg');
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: contain; /* 👈 Prevents stretching, shows image as is */
+  background-color: #fff; /* Fallback if image doesn't fill full screen */
+}
+
+
+.container {
+  background: rgba(255, 255, 255, 0.85);
+  margin: 30px auto;
+  padding: 20px;
+  border-radius: 10px;
+  width: 350px;
+  text-align: center;
+}
+
+input, button {
+  padding: 10px;
+  margin: 10px 0;
+  width: 90%;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  background-color: #333;
+  color: #fff;
+  cursor: pointer;
+}
+
+.todo-item {
+  background: #f3f3f3;
+  padding: 8px;
+  margin: 5px 0;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.todo-item span {
+  flex: 1;
+  text-align: left;
+}
+
+.link {
+  color: blue;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.success-msg {
+  color: green;
+  margin: 10px 0;
+}

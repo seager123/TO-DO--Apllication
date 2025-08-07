@@ -1,0 +1,56 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 20px;
+  background: #f0f0f0;
+}
+
+.auth-container {
+  max-width: 300px;
+  margin: auto;
+  padding: 20px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+
+.auth-container input, .auth-container button {
+  display: block;
+  margin: 10px 0;
+  width: 100%;
+  padding: 10px;
+}
+
+.success-msg {
+  color: green;
+  font-weight: bold;
+}
+
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+  background: white;
+  margin: 8px 0;
+  padding: 10px;
+  border-radius: 4px;
+}

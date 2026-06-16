@@ -1,8 +1,8 @@
 
 
-    # 📝 To-Do App (React + TypeScript + Vite)
+     # 📝 To-Do App (React + JavaScript + Vite)
 
-A simple and clean To-Do App built using **React.js**, **TypeScript**, and **Vite**, focused on component reusability and clean UI/UX.
+A simple and clean To-Do App built using **React.js**, **JavaScript**, and **Vite**
 
 ## 🚀 Features
 
@@ -21,9 +21,9 @@ A simple and clean To-Do App built using **React.js**, **TypeScript**, and **Vit
 
 - React.js
 - Vite
-- TypeScript
+-  JavaScript
 - CSS
-- *React Hooks** – useState, useEffect
+-  React Hooks – useState, useEffect
 
 
 ## 📂 Project Structure
@@ -39,11 +39,11 @@ vite-project/
 │ │ ├── login.jsx
 │ │ ├── signup.jsx
 │ │ └── TodoItem.jsx
-│ ├── App.tsx
-│ └── main.tsx
+│ ├── App.jsx
+│ └── main.jsx
 
-GitHub URL:
-git clone https://github.com/seager123/TO-DO Application.git
+Repository:
+https://github.com/seager123/TO-DO--Apllication
 
 Navigate to the Project Folder:
 CD:\todo-app\vite-project

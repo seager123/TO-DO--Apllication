@@ -1,5 +1,4 @@
-// src/App.tsx
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
 import Login from "./components/login";
 import Signup from "./components/signup";
@@ -7,16 +6,15 @@ import Home from "./components/Home";
 import Dashboard from "./components/Dashboard";
 import "./styles.css";
 
-// user ka type string ya null ho sakta hai
 function App() {
-  const [user, setUser] = useState<string | null>(null);
+  const [user, setUser] = useState(null);
 
   useEffect(() => {
     const storedUser = localStorage.getItem("loggedInUser");
     if (storedUser) setUser(storedUser);
   }, []);
 
-  const handleLogin = (username: string) => {
+  const handleLogin = (username) => {
     localStorage.setItem("loggedInUser", username);
     setUser(username);
   };
